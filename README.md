@@ -1,20 +1,31 @@
-# FitLog - Workout Library
+# 🏋️‍♂️ FitLog Fitness
 
-FitLog is a dark, no-nonsense gym companion app. Pick a lift, lock it into today's plan, and watch the week's work add up.
+**Train with intent. Log every set.**  
+A premium, dark-themed fitness tracking web application built with Next.js and Tailwind CSS. FitLog allows users to browse a comprehensive workout library, search and filter exercises, and manage their personal workout plans.
 
-## 🚀 Technologies Used
-- **Framework:** Next.js (App Router)
+---
+
+## ✨ Features
+
+- **Premium Dark UI:** Modern, responsive design with neon green accents and smooth hover effects.
+- **Dynamic Workout Library:** Fetches and displays workout data with a "See More" pagination feature.
+- **Search & Filter:** Instantly search workouts by name or filter them by equipment (Dumbbell, Barbell, Bodyweight, etc.).
+- **Plan Management:** Add exercises to "My Plan" or "Saved" lists using React Context API for global state management.
+- **Responsive Design:** Fully optimized for Mobile, Tablet, and Desktop screens.
+- **Custom 404 Page:** A fitness-themed error page for an immersive user experience.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14+ (App Router)
 - **Styling:** Tailwind CSS
 - **State Management:** React Context API
+- **Icons:** Lucide React
 - **Notifications:** React Hot Toast
-- **Data Fetching:** Native Fetch API
+- **Font:** Geist & Geist Mono
 
-## ✨ Key Features
-1. **Responsive Dark UI:** A beautifully designed dark theme with neon accent colors that works perfectly on mobile, tablet, and desktop screens.
-2. **Dynamic Workout Library:** Fetches and displays workout data from an external API, showcasing interactive workout cards.
-3. **Plan Management:** Users can add workouts to "Today's Plan" (up to 5 lifts) or "Save for later".
-4. **Live Statistics:** Calculates and displays the total number of exercises, total workout duration, and total calories burned in real-time.
-5. **Persistent Storage & Sorting:** Uses LocalStorage to save your plans even if you refresh the page. Workouts in the plan can also be sorted by Duration, Calories, or Rating.
+---
 
 ## 🛠️ How to run locally
 1. Clone the repository
